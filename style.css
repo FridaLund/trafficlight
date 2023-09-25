@@ -1,11 +1,12 @@
 .background {
   display: flex;
   flex-direction: column;
+  /* justify-content: space-around; ??? */
   width: 200px;
   height: 600px;
   background-color: white;
   border-color: gray;
-  border-width: 10px;
+  border-width: 5px;
   border-style: solid;
 }
 
@@ -31,13 +32,13 @@
 
 .smallSquare {
   display: flex;
-  width: 90%;
-  height: 90%;
+  width: 85%;
+  height: 85%;
   margin: auto;
 }
 
 #red {
-  background-color: red;
+  background-color: rgb(214, 5, 5);
 }
 
 #yellow {
@@ -45,7 +46,7 @@
 }
 
 #green {
-  background-color: rgb(1, 197, 1);
+  background-color: rgb(4, 171, 4);
 }
 
 .tinyRed {
@@ -58,6 +59,7 @@
 
 .tinyYellow {
   align-self: flex-end;
+  margin-left: auto;
   width: 50%;
   height: 50%;
   background-color: white;
