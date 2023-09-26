@@ -1,13 +1,15 @@
+body {
+  background-color: lightgray;
+}
+
 .background {
   display: flex;
   flex-direction: column;
-  /* justify-content: space-around; ??? */
+  justify-content: space-evenly;
+  align-items: center;
   width: 200px;
   height: 600px;
   background-color: white;
-  border-color: gray;
-  border-width: 5px;
-  border-style: solid;
 }
 
 .square {
@@ -15,7 +17,6 @@
   display: flex;
   width: 90%;
   height: 30%;
-  margin: auto;
 }
 
 #darkRed {
@@ -39,18 +40,24 @@
 
 #red {
   background-color: rgb(214, 5, 5);
+  display: flex;
+  align-items: flex-end;
 }
 
 #yellow {
   background-color: rgb(255, 204, 1);
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
 
 #green {
   background-color: rgb(4, 171, 4);
+  display: flex;
+  align-items: flex-end;
 }
 
 .tinyRed {
-  align-self: flex-end;
   width: 100%;
   height: 50%;
   background-color: white;
@@ -58,8 +65,6 @@
 }
 
 .tinyYellow {
-  align-self: flex-end;
-  margin-left: auto;
   width: 50%;
   height: 50%;
   background-color: white;
@@ -67,7 +72,6 @@
 }
 
 .tinyGreen {
-  align-self: flex-end;
   width: 50%;
   height: 50%;
   background-color: white;
